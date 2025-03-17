@@ -16,6 +16,7 @@
             <li> Github : <a href = "https://github.com/FernandoQuiGuz"> FernandoQuiGuz</a></li>
             <li> About me: My favorite series is Bluey from <a href = "https://www.disneyplus.com/es-419/browse/entity-fa6973b9-e7cf-49fb-81a2-d4908e4bf694"> Disney+ </a></li>
         <img src = "https://www.bluey.tv/wp-content/uploads/2022/10/Bluey_Muffin_Cone__3000x3000-Recovered-1-scaled.jpg "  alt = "Bluey, Bingo and Muffin; from Bluey" >
+    </ul>
 
         <h2 class = "title"> Personal Summary </h2>
         <p class = "text"> I am 21 years old, I enjoy studying and playing sports. I have been training in handball since I was 8 years old, which has allowed me to play in different parts of the country and even abroad. In addition to this, I am currently the treasurer of the CDI, which opens the door to new adventures in my university life.</p>
@@ -38,7 +39,7 @@
                 <td> Basic</td>
             </tr>
             <tr > 
-                <td> Excle </td>
+                <td> Excel </td>
                 <td> Medium</td>
             </tr>
             <tr class="oders"> 
@@ -46,7 +47,7 @@
                 <td> Medium </td>
             </tr>
             <tr > 
-                <td> Englisg </td>
+                <td> English </td>
                 <td> Basic </td>
             </tr>
             <tr class="oders"> 
@@ -56,9 +57,16 @@
         </table>
 
         <h3 class="title"> Buttom </h3>
+        <input type="text" id="txt">
 
-
-            
-        </ul>            
+        <button onclick="show()" class = "Buttom"> Show</button>
+        <p id="results"></p>
+        <script>
+            function show() {
+                let txt = document.getElementById("txt").value;
+                document.getElementById("results").textContent = txt;
+            }
+        </script>
+             
     </body>
 </html>
