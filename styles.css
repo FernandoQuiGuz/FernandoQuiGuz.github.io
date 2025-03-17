@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdfcfc;
+    background-color: beige;
     color: #000000;
     text-align: justify;
 }
@@ -9,10 +9,11 @@ body {
     color: #000000;
     background-color: rgb(192, 66, 192);
     display: fit-content;
-    font-size: large;
+    font:Arial;
     margin: auto;
 }
 .text{
+    font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     margin-right: 250px;
 }
