@@ -10,6 +10,7 @@ body {
     background-color: rgb(192, 66, 192);
     display: fit-content;
     font-size: large;
+    margin: auto;
 }
 .text{
     text-align: justify;
