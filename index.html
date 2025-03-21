@@ -6,90 +6,57 @@
         <title>Lab 1 Fernando</title>
         <link rel="stylesheet" href="styles.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
     </head>
     <body>
-<div class = "container mt-4 ">
-    <div class = "row">
-        <div class = "col-md-4"> 
-        <h1 class = "title">Fernando Quilaqueo</h1> 
-        <ul class = "PI">
-            <li> Name: Fernando Antonio Quilaqueo Guzmán </li>
-            <li> Major: Industrial Civil Engineering </li>
-            <li> Year of University Enrollment: 2022  </li>
-            <li> Github : <a href = "https://github.com/FernandoQuiGuz"> FernandoQuiGuz</a></li>
-            <li> About me: My favorite series is Bluey from <a href = "https://www.disneyplus.com/es-419/browse/entity-fa6973b9-e7cf-49fb-81a2-d4908e4bf694"> Disney+ </a></li>
-        <img src = "https://www.bluey.tv/wp-content/uploads/2022/10/Bluey_Muffin_Cone__3000x3000-Recovered-1-scaled.jpg "  alt = "Bluey, Bingo and Muffin; from Bluey" >
-        </ul>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 class="title">Fernando Quilaqueo</h1>
+                    <ul class="PI">
+                        <li>Name: Fernando Antonio Quilaqueo Guzmán</li>
+                        <li>Major: Industrial Civil Engineering</li>
+                        <li>Year of University Enrollment: 2022</li>
+                        <li>Github: <a href="https://github.com/FernandoQuiGuz">FernandoQuiGuz</a></li>
+                        <li>About me: My favorite series is Bluey from <a href="https://www.disneyplus.com/es-419/browse/entity-fa6973b9-e7cf-49fb-81a2-d4908e4bf694">Disney+</a></li>
+                    </ul>
+                    <img src="https://www.bluey.tv/wp-content/uploads/2022/10/Bluey_Muffin_Cone__3000x3000-Recovered-1-scaled.jpg" alt="Bluey, Bingo and Muffin; from Bluey">
+                </div>
+                <div class="col-md-4">
+                    <h2 class="title">Personal Summary</h2>
+                    <p class="text">I am 21 years old, I enjoy studying and playing sports. I have been training in handball since I was 8 years old, which has allowed me to play in different parts of the country and even abroad. I am currently the treasurer of the CDI, which opens the door to new adventures in my university life.</p>
+                    <p> </p>
+                    <table class="t1">
+                        <tr class="first"><td>SKILLS</td><td>LEVEL</td></tr>
+                        <tr class="oders"><td>Python</td><td>Medium</td></tr>
+                        <tr><td>JavaScript</td><td>Basic</td></tr>
+                        <tr class="oders"><td>HTML/CSS</td><td>Basic</td></tr>
+                        <tr><td>Excel</td><td>Medium</td></tr>
+                        <tr class="oders"><td>SQL</td><td>Medium</td></tr>
+                        <tr><td>English</td><td>Basic</td></tr>
+                        <tr class="oders"><td>Spanish</td><td>Native</td></tr>
+                    </table>
+                    <p> </p>
+                    <p> </p>
+                    <h3 class="title">Button</h3>
+                    <input type="text" id="txt">
+                    <button onclick="show()" class="Buttom">Show</button>
+                    <p id="text"></p>
+                    <script>
+                        function show() {
+                            let txt = document.getElementById("txt").value;
+                            document.getElementById("text").textContent = txt;
+                        }
+                    </script>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="title">Latest Ten News</h3>
+                    <div id="data_container">
+                        <script src="script.js"></script>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="col-md-4">
-        <h2 class = "title"> Personal Summary </h2>
-        <p class = "text"> I am 21 years old, I enjoy studying and playing sports. I have been training in handball since I was 8 years old, which has allowed me to play in different parts of the country and even abroad. In addition to this, I am currently the treasurer of the CDI, which opens the door to new adventures in my university life.</p>
-
-        <table class = "t1">
-            <tr class = "first"> 
-                <td> SKILLS</td>
-                <td> LEVEL</td>
-            </tr>
-            <tr class = "oders"> 
-                <td> Python </td>
-                <td> Medium</td>
-            </tr>
-            <tr>
-                <td> JavaScript </td>
-                <td> Basic</td>
-            </tr>
-            <tr class="oders"> 
-                <td> HTML/CSS</td>
-                <td> Basic</td>
-            </tr>
-            <tr > 
-                <td> Excel </td>
-                <td> Medium</td>
-            </tr>
-            <tr class="oders"> 
-                <td> SQL</td>
-                <td> Medium </td>
-            </tr>
-            <tr > 
-                <td> English </td>
-                <td> Basic </td>
-            </tr>
-            <tr class="oders"> 
-                <td> Spanish </td>
-                <td> Native </td>
-            </tr>
-        </table>
-        </div>
-
-        <div class="col-md-4">
-        <h3 class="title"> Button </h3>
-        <input type="text" id="txt">
-
-        <button onclick="show()" class = "Buttom"> Show</button>
-        <p id="text"></p>
-        <script>
-            function show() {
-                let txt = document.getElementById("txt").value;
-                document.getElementById("text").textContent = txt;
-            }
-        </script>
-
-        <div id="data_container">
-        
-            <script src="script.js"></script>
-        <script>
-            getFetch()
-        </script>
-
-        </div>
-        
-        </div>
-
-    </div>
-</div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
