@@ -1,8 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: beige;
     color: #000000;
     text-align: justify;
+    background-image: url('https://i.pinimg.com/736x/ae/d1/44/aed144c337a1bd6192c037b453384a58.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .title{
@@ -21,6 +24,7 @@ body {
 img{
     width: 100px;
     background-color: rgb(35, 74, 189);
+    margin: 0 auto;
 }
 
 .PI {
