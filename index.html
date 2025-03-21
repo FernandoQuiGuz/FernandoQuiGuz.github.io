@@ -5,9 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lab 1 Fernando</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     </head>
     <body>
+<div class = "container mt-4 ">
+    <div class = "row">
+        <div class = "col-md-4"> 
         <h1 class = "title">Fernando Quilaqueo</h1> 
         <ul class = "PI">
             <li> Name: Fernando Antonio Quilaqueo Guzmán </li>
@@ -16,8 +20,10 @@
             <li> Github : <a href = "https://github.com/FernandoQuiGuz"> FernandoQuiGuz</a></li>
             <li> About me: My favorite series is Bluey from <a href = "https://www.disneyplus.com/es-419/browse/entity-fa6973b9-e7cf-49fb-81a2-d4908e4bf694"> Disney+ </a></li>
         <img src = "https://www.bluey.tv/wp-content/uploads/2022/10/Bluey_Muffin_Cone__3000x3000-Recovered-1-scaled.jpg "  alt = "Bluey, Bingo and Muffin; from Bluey" >
-    </ul>
+        </ul>
+        </div>
 
+        <div class="col-md-4">
         <h2 class = "title"> Personal Summary </h2>
         <p class = "text"> I am 21 years old, I enjoy studying and playing sports. I have been training in handball since I was 8 years old, which has allowed me to play in different parts of the country and even abroad. In addition to this, I am currently the treasurer of the CDI, which opens the door to new adventures in my university life.</p>
 
@@ -55,7 +61,9 @@
                 <td> Native </td>
             </tr>
         </table>
+        </div>
 
+        <div class="col-md-4">
         <h3 class="title"> Button </h3>
         <input type="text" id="txt">
 
@@ -67,6 +75,21 @@
                 document.getElementById("text").textContent = txt;
             }
         </script>
-             
+
+        <div id="data_container">
+        
+            <script src="script.js"></script>
+        <script>
+            getFetch()
+        </script>
+
+        </div>
+        
+        </div>
+
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
